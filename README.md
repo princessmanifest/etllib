@@ -42,8 +42,10 @@ Run the following commands to install ETLLib.
 ```
 git clone https://github.com/chrismattmann/etllib.git
 cd etllib
-python setup.py install
+pip install .
 ```
+Note: Python Interpreter 3.11 or earlier is required for pip to install "imp" and "glob" dependencies
+
 
 The `bin` directory will be populated with the various command-line tools.
 
